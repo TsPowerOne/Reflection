@@ -1,10 +1,12 @@
 {
   "name": "@tspower/reflection",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Easy javascript object reflection",
   "main": "./lib/reflection.js",
   "types": "./lib/reflection.d.ts",
-  
+  "repository": {
+    "url": "https://github.com/TsPowerOne/Reflection"
+  },
   "scripts": {
     "setup": "npm install",
     "build": "tsc",
@@ -29,7 +31,7 @@
     "typescript": "^3.1.1"
   },
   "directories": {
-    "lib": "dist/src"
+    "lib": "dist"
   },
   "keywords": [
     "javscript",
