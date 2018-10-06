@@ -27,7 +27,7 @@ deploy:
       tags: true
   - provider: npm
     skip_cleanup: true
-    email: "luigisenzamici@gmail.com"
+    email: "luigisenzamici"
     api_key: 98a917a3-1487-40b8-aa1b-bb3e11af5fc8
     on:
       tags: true
