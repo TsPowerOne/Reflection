@@ -7,9 +7,7 @@ describe('getProperties', () => {
   it('should return ciao', () => {
     let obj = {ciao:"ciao"};
     const result = getProperties(obj);
-
     expect(result[0]).to.equal("ciao");
-
   });
   
 
