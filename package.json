@@ -31,11 +31,14 @@
     "typescript": "^3.1.1"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "dist/src"
   },
   "keywords": [
     "javscript",
     "object",
     "reflection"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
