@@ -1,5 +1,5 @@
 {
-  "name": "ts-reflection",
+  "name": "@pegasoprofessional/ts-reflection",
   "version": "1.0.0",
   "description": "Easy javascript object reflection",
   "main": "./lib/ts-reflection.js",
@@ -12,5 +12,13 @@
   "dependencies": {},
   "devDependencies": {
     "typescript": "^3.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "javscript",
+    "object",
+    "reflection"
+  ]
 }
