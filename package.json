@@ -13,7 +13,7 @@
     "pretest": "npm run build",
     "test": "npm run test-only",
     "clean": "shx rm -rf node_modules/ dist/ docs/",
-    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json ./dev/src/",
+    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json ",
     "posttypedoc": "shx cp .nojekyll docs/.nojekyll"
   },
   "author": "Luigi Senzamici (Pegaso Professional)",
