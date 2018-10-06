@@ -3,11 +3,11 @@
       "target": "es5",
       "module": "commonjs",
       "declaration": true,
-      "outDir": "./dist/src",
+      "outDir": "./lib",
       "strict": true,
       "noImplicitAny": false
     },
     "exclude":[
-      "./dist/test/**/*.spec.ts"
+      "./test/**/*.spec.ts"
     ]
   }

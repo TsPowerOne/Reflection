@@ -1,7 +1,7 @@
-import {getProperties} from '../src/reflection';
+import {getProperties} from '../lib/reflection';
 
 import { expect } from 'chai';
-import { getPropertyByValue } from '../../reflection';
+
 describe('getProperties', () => {
 
   it('should return ciao', () => {

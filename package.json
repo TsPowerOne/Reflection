@@ -1,20 +1,17 @@
 {
   "name": "@tspower/reflection",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Easy javascript object reflection",
-  "main": "./dist/src/reflection.js",
-  "types": "./dist/src/reflection.d.ts",
+  "main": "./lib/reflection.js",
+  "types": "./lib/reflection.d.ts",
   "scripts": {
-    "publish": "npm publish --access public",
     "setup": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
-    "test-only": "mocha --require ts-node/register dist/test/**/*.ts",
+    "test-only": "mocha --require ts-node/register test/**/*.ts",
     "pretest": "npm run build",
     "test": "npm run test-only",
-    "clean": "shx rm -rf node_modules/ dist/ docs/",
-    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json ",
-    "posttypedoc": "shx cp .nojekyll docs/.nojekyll"
+    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json "
   },
   "author": "Luigi Senzamici (Pegaso Professional)",
   "license": "MIT",
