@@ -27,7 +27,7 @@ listMethods will contain  `["call"]`
 property will contain: `"value"`  
 
 ## version history
-@1.1.2 readme update  
+@1.1.11 test inserted  
 @1.1.1 readme update  
 @1.1.0 add doc on methods  
 
