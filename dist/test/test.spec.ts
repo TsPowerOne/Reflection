@@ -12,11 +12,6 @@ describe('getProperties', () => {
 
   });
   
-  it('should return ciao', () => {
-    let obj = {ciao:55};
-    const result = getPropertyByValue(obj, 55);
 
-    expect(result[0]).to.equal("ciao");
-  });
 
 });
