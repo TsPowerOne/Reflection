@@ -7,6 +7,9 @@
       "strict": true,
       "noImplicitAny": false
     },
+    "files": [
+      "src/reflection.ts"
+    ],
     "exclude":[
       "./test/**/*.spec.ts"
     ]

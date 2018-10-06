@@ -1,10 +1,8 @@
 tsconfig.json
-.travis.yml
-.nojekyll
-dev/
+package.json
+package-lock.json
+readme.md
+src/
 docs/
-dist/test/
+test/
 .npmignore
-
-
-reflection-*.tgz
