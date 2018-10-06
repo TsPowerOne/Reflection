@@ -17,7 +17,6 @@ describe('getProperties', () => {
     const result = getPropertyByValue(obj, 55);
 
     expect(result[0]).to.equal("ciao");
-
   });
 
 });
