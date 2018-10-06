@@ -4,6 +4,7 @@
   "description": "Easy javascript object reflection",
   "main": "./lib/reflection.js",
   "types": "./lib/reflection.d.ts",
+  
   "scripts": {
     "setup": "npm install",
     "build": "tsc",
