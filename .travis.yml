@@ -1,0 +1,33 @@
+language: nodejs
+
+before_script:
+  - npm run setup
+  - npm run build
+
+script:
+  - npm run test-only
+
+after_success:
+  - npm run typedoc
+  - npm pack
+
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    local_dir: docs/
+    github_token: clM-MUfMeMrH-8dTxfzJpQ
+    on:
+      tags: true
+  - provider: releases
+    api_key: clM-MUfMeMrH-8dTxfzJpQ
+    file_glob: true
+    file: "reflection-*.tgz"
+    skip_cleanup: true
+    on:
+      tags: true
+  - provider: npm
+    skip_cleanup: true
+    email: "luigisenzamici@gmail.com"
+    api_key: 98a917a3-1487-40b8-aa1b-bb3e11af5fc8
+    on:
+      tags: true
