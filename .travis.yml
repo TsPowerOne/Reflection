@@ -12,20 +12,7 @@ after_success:
   - npm pack
 
 deploy:
-  - provider: pages
-    skip_cleanup: true
-    local_dir: docs/
-    github_token: clM-MUfMeMrH-8dTxfzJpQ
-    on:
-      tags: true
-  - provider: releases
-    api_key: clM-MUfMeMrH-8dTxfzJpQ
-    file_glob: true
-    file: "reflection-*.tgz"
-    skip_cleanup: true
-    on:
-      tags: true
-  - provider: npm
+   - provider: npm
     skip_cleanup: true
     email: "luigisenzamici"
     api_key: 98a917a3-1487-40b8-aa1b-bb3e11af5fc8
