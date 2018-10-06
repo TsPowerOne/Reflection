@@ -1,6 +1,6 @@
 {
   "name": "@tspower/reflection",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Easy javascript object reflection",
   "main": "./lib/reflection.js",
   "types": ".lib/reflection.d.ts",
