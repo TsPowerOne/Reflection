@@ -9,11 +9,7 @@ describe('getProperties', () => {
     const result = getProperties(obj);
     expect(result[0]).to.equal("ciao");
   });
-  it('should return hello', () => {
-    let obj = {hello:"ciao"};
-    const result = getProperties(obj);
-    expect(result[0]).to.equal("hello");
-  });
+
 
 
 });
