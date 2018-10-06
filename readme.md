@@ -27,14 +27,14 @@ listMethods will contain  `["call"]`
 property will contain: `"value"`  
 
 ## version history
-@1.1.1 readme update
-@1.1.0 add doc on methods
+@1.1.1 readme update  
+@1.1.0 add doc on methods  
 
 ## Author
 Luigi Senzamici (luigisenzamici@gmail.com) [Pegaso Professional]
 
 ## License
-MIT License
+MIT License  
 [MIT](http://opensource.org/licenses/MIT)
 
 
