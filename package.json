@@ -1,22 +1,37 @@
 {
   "name": "@tspower/reflection",
-  "version": "1.1.13",
+  "version": "1.2.0",
   "description": "Easy javascript object reflection",
   "main": "./lib/reflection.js",
   "types": "./lib/reflection.d.ts",
   "repository": {
     "url": "https://github.com/TsPowerOne/Reflection"
   },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
     "setup": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
-    "test-only": "mocha --require ts-node/register test/**/*.ts",
+    "test-console": "mocha --require ts-node/register test/**/*.ts",
+    "test-only": "mocha --require ts-node/register test/**/*.ts --reporter mocha-junit-reporter",
     "pretest": "npm run build",
     "test": "npm run test-only",
     "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json "
   },
-  "author": "Luigi Senzamici (Pegaso Professional)",
+  "keywords": [
+    "javscript",
+    "object",
+    "reflection"
+  ],
+  "author": {
+    "name": "Luigi Senzamici [Pegaso Professional]",
+    "email": "luigisenzamici@gmail.com",
+    "url": "https://luigisenzamici.com"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -24,20 +39,17 @@
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.23.1",
     "npm-run-all": "^4.1.3",
     "shx": "^0.3.2",
     "ts-node": "^7.0.1",
-    "typedoc": "^0.12.0",
+    "typedoc": "^0.15.0",
     "typescript": "^3.1.1"
   },
-  "directories": {
-    "lib": "dist"
+  "bugs": {
+    "url": "https://github.com/TsPowerOne/Reflection/issues"
   },
-  "keywords": [
-    "javscript",
-    "object",
-    "reflection"
-  ],
+  "homepage": "https://tspowerone.github.io/Reflection/",
   "publishConfig": {
     "access": "public"
   }
