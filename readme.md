@@ -7,6 +7,10 @@
 2 - getMethods - return list of object methods  
 3 - getPropertyByValue - return property name that match passed value  
 
+##Documentation
+Detailed documentation [here](https://tspowerone.github.io/regexpr/)        
+
+
 ## Install
 `npm i @tspower/reflection`
 

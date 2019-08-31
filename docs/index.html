@@ -64,27 +64,44 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<h1 id="reflection">Reflection</h1>
+				<a href="#reflection-img-srchttpsppbusinessprojectvisualstudiocomtspowerone_apisbuildstatustspoweronereflectionbranchnamemaster-altalt-text" id="reflection-img-srchttpsppbusinessprojectvisualstudiocomtspowerone_apisbuildstatustspoweronereflectionbranchnamemaster-altalt-text" style="color: inherit; text-decoration: none;">
+					<h1>Reflection <img src="https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Reflection?branchName=master" alt="alt text"></h1>
+				</a>
 				<blockquote>
 					<p>Reflection simple ispect your javascript object!</p>
 				</blockquote>
-				<h2 id="methods">Methods</h2>
-				<p>getProperties - return list of object properties<br>getMethods - return list of object methods<br>getPropertyByValue - return property name that match passed value  </p>
-				<h2 id="install">Install</h2>
+				<a href="#methods" id="methods" style="color: inherit; text-decoration: none;">
+					<h2>Methods</h2>
+				</a>
+				<p>1 - getProperties - return list of object properties<br>2 - getMethods - return list of object methods<br>3 - getPropertyByValue - return property name that match passed value  </p>
+				<p>##Documentation
+				Detailed documentation <a href="https://tspowerone.github.io/regexpr/">here</a>        </p>
+				<a href="#install" id="install" style="color: inherit; text-decoration: none;">
+					<h2>Install</h2>
+				</a>
 				<p><code>npm i @tspower/reflection</code></p>
-				<h2 id="use">Use</h2>
-				<pre><code><span class="hljs-keyword">import</span> {getProperties, getMethods, getPropertyByValue} <span class="hljs-keyword">from</span> <span class="hljs-string">'@tspower/reflection'</span>`<span class="javascript">
+				<a href="#use" id="use" style="color: inherit; text-decoration: none;">
+					<h2>Use</h2>
+				</a>
+				<pre><code class="language-javascript">    <span class="hljs-keyword">import</span> {getProperties, getMethods, getPropertyByValue} <span class="hljs-keyword">from</span> <span class="hljs-string">'@tspower/reflection'</span><span class="hljs-string">`
 
-<span class="hljs-keyword">let</span> obj = {<span class="hljs-attr">id</span>:<span class="hljs-string">"first"</span>, <span class="hljs-attr">value</span>:<span class="hljs-number">55</span>, <span class="hljs-attr">call</span>:<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{alert(<span class="hljs-string">"hello world!"</span>}}
-<span class="hljs-keyword">let</span> listProperties = getProperties(obj);
-<span class="hljs-keyword">let</span> listMethods = getMethods(obj);
-<span class="hljs-keyword">let</span> property = getPropertyByValue(obj, <span class="hljs-number">55</span>);</span></code></pre><p>listProperty will contain <code>[&quot;id&quot;, &quot;value&quot;]</code><br>listMethods will contain  <code>[&quot;call&quot;]</code><br>property will contain: <code>&quot;value&quot;</code>  </p>
-				<h2 id="version-history">version history</h2>
+    let obj = {id:"first", value:55, call:function(){alert("hello world!"}}
+    let listProperties = getProperties(obj);
+    let listMethods = getMethods(obj);
+    let property = getPropertyByValue(obj, 55);</span></code></pre>
+				<p>listProperty will contain <code>[&quot;id&quot;, &quot;value&quot;]</code><br>listMethods will contain  <code>[&quot;call&quot;]</code><br>property will contain: <code>&quot;value&quot;</code>  </p>
+				<a href="#version-history" id="version-history" style="color: inherit; text-decoration: none;">
+					<h2>version history</h2>
+				</a>
 				<p>@1.1.11 test inserted<br>@1.1.1 readme update<br>@1.1.0 add doc on methods  </p>
-				<h2 id="author">Author</h2>
-				<p>Luigi Senzamici (<a href="mailto:luigisenzamici@gmail.com">luigisenzamici@gmail.com</a>) [Pegaso Professional]</p>
-				<h2 id="license">License</h2>
-				<p>MIT License<br><a href="http://opensource.org/licenses/MIT">MIT</a></p>
+				<a href="#author" id="author" style="color: inherit; text-decoration: none;">
+					<h2>Author</h2>
+				</a>
+				<p>Luigi Senzamici<br>Email: <a href="mailto:luigisenzamici@gmail.com">luigisenzamici@gmail.com</a><br><a href="https://pegasoprofessional.com">Pegaso Professional</a>   </p>
+				<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+					<h2>License</h2>
+				</a>
+				<p><a href="http://opensource.org/licenses/MIT">MIT License</a></p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -93,13 +110,19 @@
 					<li class="globals  ">
 						<a href="globals.html"><em>Globals</em></a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_reflection_.html">"reflection"</a>
-					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getmethods" class="tsd-kind-icon">get<wbr>Methods</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getproperties" class="tsd-kind-icon">get<wbr>Properties</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getpropertybyvalue" class="tsd-kind-icon">get<wbr>Property<wbr>ByValue</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -117,6 +140,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -165,7 +189,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="assets/js/main.js"></script>

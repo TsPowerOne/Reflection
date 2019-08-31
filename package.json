@@ -1,6 +1,6 @@
 {
   "name": "@tspower/reflection",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Easy javascript object reflection",
   "main": "./lib/reflection.js",
   "types": "./lib/reflection.d.ts",
@@ -20,7 +20,7 @@
     "test-only": "mocha --require ts-node/register test/**/*.ts --reporter mocha-junit-reporter",
     "pretest": "npm run build",
     "test": "npm run test-only",
-    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json "
+    "typedoc": "typedoc --out ./docs --mode file --tsconfig ./tsconfig.json "
   },
   "keywords": [
     "javscript",
