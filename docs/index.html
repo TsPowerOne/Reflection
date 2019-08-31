@@ -70,12 +70,14 @@
 				<blockquote>
 					<p>Reflection simple ispect your javascript object!</p>
 				</blockquote>
-				<a href="#methods" id="methods" style="color: inherit; text-decoration: none;">
-					<h2>Methods</h2>
+				<a href="#available-methods" id="available-methods" style="color: inherit; text-decoration: none;">
+					<h2>Available Methods</h2>
 				</a>
-				<p>1 - getProperties - return list of object properties<br>2 - getMethods - return list of object methods<br>3 - getPropertyByValue - return property name that match passed value  </p>
-				<p>##Documentation
-				Detailed documentation <a href="https://tspowerone.github.io/regexpr/">here</a>        </p>
+				<p>1 - getProperties - return list of object properties<br>2 - getMethods - return list of object methods<br>3 - getPropertyByValue - return property name that match passed value       </p>
+				<a href="#documentation" id="documentation" style="color: inherit; text-decoration: none;">
+					<h2>Documentation</h2>
+				</a>
+				<p>Detailed documentation <a href="https://tspowerone.github.io/Reflection/">here</a>        </p>
 				<a href="#install" id="install" style="color: inherit; text-decoration: none;">
 					<h2>Install</h2>
 				</a>
@@ -83,12 +85,12 @@
 				<a href="#use" id="use" style="color: inherit; text-decoration: none;">
 					<h2>Use</h2>
 				</a>
-				<pre><code class="language-javascript">    <span class="hljs-keyword">import</span> {getProperties, getMethods, getPropertyByValue} <span class="hljs-keyword">from</span> <span class="hljs-string">'@tspower/reflection'</span><span class="hljs-string">`
+				<pre><code class="language-javascript">    <span class="hljs-keyword">import</span> {getProperties, getMethods, getPropertyByValue} <span class="hljs-keyword">from</span> <span class="hljs-string">'@tspower/reflection'</span>
 
-    let obj = {id:"first", value:55, call:function(){alert("hello world!"}}
-    let listProperties = getProperties(obj);
-    let listMethods = getMethods(obj);
-    let property = getPropertyByValue(obj, 55);</span></code></pre>
+    <span class="hljs-keyword">let</span> obj = {<span class="hljs-attr">id</span>:<span class="hljs-string">"first"</span>, <span class="hljs-attr">value</span>:<span class="hljs-number">55</span>, <span class="hljs-attr">call</span>:<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{alert(<span class="hljs-string">"hello world!"</span>}}
+    <span class="hljs-keyword">let</span> listProperties = getProperties(obj);
+    <span class="hljs-keyword">let</span> listMethods = getMethods(obj);
+    <span class="hljs-keyword">let</span> property = getPropertyByValue(obj, <span class="hljs-number">55</span>);</code></pre>
 				<p>listProperty will contain <code>[&quot;id&quot;, &quot;value&quot;]</code><br>listMethods will contain  <code>[&quot;call&quot;]</code><br>property will contain: <code>&quot;value&quot;</code>  </p>
 				<a href="#version-history" id="version-history" style="color: inherit; text-decoration: none;">
 					<h2>version history</h2>
